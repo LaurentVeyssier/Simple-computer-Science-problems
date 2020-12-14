@@ -1,0 +1,28 @@
+Worst-Case Big-O Notation analysis
+
+Task 0
+The order is O(1). Does not scale with the length of the input. 
+Algorithm:
+- collect data on first text. Complexity = O(1)
+- print statement(). Complexity = O(1)
+- collect data on last call. Complexity = O(1)
+- print statement(). Complexity = O(1)
+
+Task 1
+The order is approximated to O(n).
+Algorithm:
+- initialize empty Counter(). Complexity = O(1)
+- go through texts dataset once. Complexity = O(n)
+- update Counter()=> complexity of O(1)
+- go through calls dataset once => complexity of O(n)
+- update Counter()=> complexity of O(1)
+- print statement => complexity of O(1)
+
+Task 2
+The order is similar to Task 1 with O(n). The algorithm goes once through the calls dataset and performs two operations on each record (updating number#1 and number#2). And then finding the maximum duration is also O(n) => O(3n) approximated to O(n).
+
+Task 3
+The order is O(n log n). The algorithm goes through the calls dataset twice in sequence and also goes through the list of codes once to print out. There are also multiple conditions checked for each record which are therefore proportional to n. These operations are therefore O(n). The sorting step drives O(n log n) which we retain for our approximation.
+
+Task 4
+The order is again simplified to O(n log n) due to the sorting operation. The algorithm goes through both datasets multiple times (up to 4 times in total for the worst case) but in sequence. These operations therefore remain proportional to n. The sorting step drives O(n log n) which we retain for our approximation.
