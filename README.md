@@ -26,3 +26,4 @@ Telemarketers' numbers have no parentheses or space, but start with the code 140
 - Determine phone number with longest time spent over the phone
 - profile the numbers called from Bangalore
 - Determine which numbers could be disguised telemarketers
+- Big(O) analysis of the code and data architecture used
